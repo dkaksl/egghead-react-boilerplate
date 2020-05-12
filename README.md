@@ -8,6 +8,7 @@
 
 2.  Nuke .git directory
 
+        cd <your-app-name-here>
         rm -rf .git
 
 3.  Create a new git repository (on GitHub etc.)
