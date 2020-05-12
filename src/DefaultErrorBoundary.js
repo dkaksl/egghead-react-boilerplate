@@ -6,6 +6,10 @@ export default class DefaultErrorBoundary extends React.Component {
     isError: false,
   }
 
+  static propTypes = {
+    children: PropTypes.node.isRequired,
+  }
+
   static getDerivedStateFromError() {
     return { isError: true }
   }
@@ -15,8 +19,4 @@ export default class DefaultErrorBoundary extends React.Component {
     const { children } = this.props
     return isError ? <div>Something went wrong!</div> : children
   }
-}
-
-DefaultErrorBoundary.propTypes = {
-  children: PropTypes.node.isRequired,
 }
