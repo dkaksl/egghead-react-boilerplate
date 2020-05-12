@@ -7,7 +7,8 @@
     "build": "webpack --config webpack.config.prod.js",
     "dev": "webpack-dev-server --open --config webpack.config.dev.js",
     "dev:hot": "npm run dev -- --hot",
-    "test": "jest"
+    "test": "jest",
+    "format": "pretty-quick"
   },
   "author": "",
   "license": "ISC",
@@ -34,6 +35,8 @@
     "html-webpack-plugin": "^4.3.0",
     "jest": "^26.0.1",
     "jest-cli": "^26.0.1",
+    "prettier": "^2.0.5",
+    "pretty-quick": "^2.0.1",
     "style-loader": "^1.2.1",
     "webpack": "^4.43.0",
     "webpack-bundle-analyzer": "^3.7.0",
