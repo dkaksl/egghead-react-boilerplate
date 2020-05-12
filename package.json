@@ -17,7 +17,7 @@
     }
   },
   "author": "",
-  "license": "MIT",
+  "license": "ISC",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dkaksl/egghead-react-boilerplate.git"
