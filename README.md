@@ -4,7 +4,7 @@
 
 1.  Clone it
 
-        git clone git@github.com:dkaksl/egghead-react-boilerplate.git
+        git clone depth=1 git@github.com:dkaksl/egghead-react-boilerplate.git <your-app-name-here>
 
 2.  Nuke .git directory
 
