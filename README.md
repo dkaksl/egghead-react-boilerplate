@@ -11,10 +11,11 @@
         cd <your-app-name-here>
         rm -rf .git
 
-3.  Create a new git repository (on GitHub etc.)
-4.  Initialize your clone as a new git repository
+3.  Initialize your clone as a new git repository
 
         git init
+
+4.  Create a new git repository (on GitHub etc.)
 
 5.  Set the remote of your git repository to the git repository you created
 
